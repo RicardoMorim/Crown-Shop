@@ -227,6 +227,39 @@ body {
   color: #fff !important;
 }
 
+
+
+
+
+.gray-button a {
+  display: inline-block !important;
+  padding: 10px 20px !important;
+  color: white !important;
+  text-transform: capitalize;
+  font-size: 15px;
+  background-color: gray;
+  border-radius: 23px;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px !important;
+  transition: all .5s;
+}
+
+.gray-button a i {
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.gray-button a:hover {
+  background-color: black;
+  color: yellow !important;
+}
+
+
+
+
+
+
+
 .text-button a {
   font-size: 15px;
 }
@@ -244,11 +277,11 @@ body {
 .gradient-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #fff !important;
+  color: gray !important;
   text-transform: capitalize;
   font-size: 15px;
   background: rgb(19,175,240);
-  background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);
+  background: linear-gradient(105deg, yellow 0%, lightyellow 100%);
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -258,7 +291,7 @@ body {
 .gradient-button a:hover {
   color: #fff !important;
   background: rgb(19,175,240);
-  background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);
+  background: linear-gradient(105deg, yellow 0%, lightyellow 100%);
 }
 
 .border-button a {
@@ -432,7 +465,7 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #4b8ef1!important;
+  color: gray!important;
 }
 
 .header-area .main-nav .nav li:last-child a.active {
@@ -2229,3 +2262,4 @@ responsive
     padding: 30px;
   }
 }
+
